@@ -611,9 +611,13 @@ require("nvim-tree").setup({
   renderer = {
     group_empty = true,
     icons = {
+      show = {
+            file = false,
+            folder = false,
+      },
       glyphs = {
           default = "",
-          symlink = ">",
+          symlink = "~",
           bookmark = "@",
           modified = "*",
         git = {
@@ -626,13 +630,13 @@ require("nvim-tree").setup({
           ignored = "i"
         },
         folder = {
-          arrow_open = "-",
-          arrow_closed = "+",
-          default = "+",
-          open =  "-",
-          empty = "o",
-          empty_open = "o",
-          symlink = ">",
+          arrow_open = "\\",
+          arrow_closed = ">",
+          default = ">",
+          open =  "v",
+          empty = "",
+          empty_open = "",
+          symlink = "~",
           symlink_open = "^",
         },
       },
