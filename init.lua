@@ -241,6 +241,8 @@ vim.wo.number = true
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
+vim.o.autowrite = true
+
 vim.cmd.colorscheme("slate")
 
 vim.o.colorcolumn = "80" -- Sync clipboard between OS and Neovim.
