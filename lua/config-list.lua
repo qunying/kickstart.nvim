@@ -5,4 +5,5 @@ require "config.treesitter"
 require "config.lsp"
 require "config.cmp"
 require "config.nvim-tree"
+require "config.nvim-ufo"
 -- vim: ts=2 sts=2 sw=2 et

@@ -29,4 +29,6 @@ return {
   {
     'nvim-tree/nvim-tree.lua',
   },
+  -- for folding
+  require 'plugins.nvim-ufo',
 }
