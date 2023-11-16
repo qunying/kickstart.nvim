@@ -3,6 +3,8 @@ return {
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
 
+  require "plugins.telescope",
+  require "plugins.treesitter",
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
   require "plugins.lsp",
@@ -24,8 +26,6 @@ return {
   -- "gc" to comment visual regions/lines
   { 'numToStr/Comment.nvim', opts = {} },
 
-  require "plugins.telescope",
-  require "plugins.treesitter",
   {
     'nvim-tree/nvim-tree.lua',
   },
