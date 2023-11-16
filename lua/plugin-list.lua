@@ -29,4 +29,7 @@ return {
   {
     'nvim-tree/nvim-tree.lua',
   },
+  -- cscope_maps
+  { 'dhananjaylatkar/cscope_maps.nvim', opts = {}} ,
+  require "plugins.gutentags",
 }
