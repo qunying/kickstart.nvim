@@ -31,5 +31,4 @@ return {
   },
   -- cscope_maps
   { 'dhananjaylatkar/cscope_maps.nvim', opts = {}} ,
-  require "plugins.gutentags",
 }
