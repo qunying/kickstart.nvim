@@ -38,4 +38,4 @@ vim.o.foldlevelstart = 20
 vim.o.foldmethod = "indent"
 vim.o.foldenable = true
 
-vim.cmd.colorscheme("slate")
+vim.cmd.colorscheme("256_jungle_m")
