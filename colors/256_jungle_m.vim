@@ -9,7 +9,7 @@ if version > 580
 endif
 
 set t_Co=256
-let g:colors_name = "256_jungle_modified"
+let g:colors_name = "256_jungle_m"
 
 "hi IncSearch -- no settings --
 "hi WildMenu -- no settings --
@@ -17,13 +17,13 @@ let g:colors_name = "256_jungle_modified"
 "hi Title -- no settings --
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
-hi Normal guifg=#dadada guibg=#1c1c1c guisp=#1c1c1c gui=NONE ctermfg=253 ctermbg=234 cterm=NONE
+hi Normal guifg=#dadada guibg=#000000 guisp=#1c1c1c gui=NONE ctermfg=253 ctermbg=40 cterm=NONE
 "hi CTagsImport -- no settings --
 "hi CTagsGlobalVariable -- no settings --
 "hi SpellRare -- no settings --
 "hi EnumerationValue -- no settings --
 "hi Float -- no settings --
-"hi CursorLine -- no settings --
+hi CursorLine guifg=NONE guibg=#1c1c1c guisp=NONE gui=NONE ctermfg=NONE ctermbg=234 cterm=NONE
 "hi Union -- no settings --
 "hi Question -- no settings --
 "hi WarningMsg -- no settings --
@@ -64,10 +64,10 @@ hi StorageClass guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg
 hi Todo guifg=#d70087 guibg=NONE guisp=NONE gui=NONE ctermfg=162 ctermbg=NONE cterm=NONE
 hi Special guifg=#d78700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#808080 guibg=#121212 guisp=#121212 gui=NONE ctermfg=8 ctermbg=233 cterm=NONE
-hi StatusLine guifg=#808080 guibg=#5f0000 guisp=#5f0000 gui=NONE ctermfg=8 ctermbg=52 cterm=NONE
+hi StatusLine guifg=#ffff00 guibg=#5f0000 guisp=#5f0000 gui=NONE ctermfg=11 ctermbg=52 cterm=NONE
 hi Label guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
 hi PMenuSel guifg=#5f87ff guibg=#080808 guisp=#080808 gui=NONE ctermfg=69 ctermbg=232 cterm=NONE
-hi Search guifg=#af005f guibg=NONE guisp=NONE gui=NONE ctermfg=125 ctermbg=NONE cterm=NONE
+hi Search guifg=#af005f guibg=#ffff00 guisp=NONE gui=NONE ctermfg=125 ctermbg=226 cterm=NONE
 hi Delimiter guifg=#d78700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
 hi Statement guifg=#d78700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
 hi Comment guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
