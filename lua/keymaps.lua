@@ -35,3 +35,5 @@ vim.keymap.set('n', '<leader>sd', require('telescope.builtin').diagnostics, { de
 vim.keymap.set('n', '<leader>sr', require('telescope.builtin').resume, { desc = '[S]earch [R]esume' })
 
 vim.keymap.set('n', '<leader>tv', ':NvimTreeToggle<CR>', { desc = 'toggle tree view' })
+-- remap Y to yy to be compatible with vi :)
+vim.keymap.set('n', 'Y', 'yy', { desc = 'Yank a line as in vi.' })
