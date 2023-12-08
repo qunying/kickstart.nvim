@@ -38,4 +38,7 @@ vim.o.foldlevelstart = 20
 vim.o.foldmethod = "indent"
 vim.o.foldenable = true
 
+-- change cindent mode
+vim.o.cinoptions =":0,g0"
+
 vim.cmd.colorscheme("256_jungle_m")
