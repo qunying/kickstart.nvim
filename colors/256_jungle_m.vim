@@ -66,7 +66,7 @@ hi Special guifg=#d78700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE
 hi LineNr guifg=#808080 guibg=#121212 guisp=#121212 gui=NONE ctermfg=8 ctermbg=233 cterm=NONE
 hi StatusLine guifg=#ffff00 guibg=#5f0000 guisp=#5f0000 gui=NONE ctermfg=11 ctermbg=52 cterm=NONE
 hi Label guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
-hi PMenuSel guifg=#5f87ff guibg=#080808 guisp=#080808 gui=NONE ctermfg=69 ctermbg=232 cterm=NONE
+hi PMenuSel guifg=#00ff00 guibg=#870000 guisp=#870000 gui=NONE ctermfg=10 ctermbg=88 cterm=NONE
 hi Search guifg=#af005f guibg=#ffff00 guisp=NONE gui=NONE ctermfg=125 ctermbg=226 cterm=NONE
 hi Delimiter guifg=#d78700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
 hi Statement guifg=#d78700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
@@ -87,7 +87,7 @@ hi Keyword guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE
 hi Type guifg=#d75f00 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
 hi Cursor guifg=#dadada guibg=#5f00ff guisp=#5f00ff gui=NONE ctermfg=253 ctermbg=57 cterm=NONE
 hi Error guifg=NONE guibg=#ff0000 guisp=#ff0000 gui=NONE ctermfg=NONE ctermbg=196 cterm=NONE
-hi PMenu guifg=#5f5fd7 guibg=#121212 guisp=#121212 gui=NONE ctermfg=62 ctermbg=233 cterm=NONE
+hi PMenu guifg=#00d700 guibg=#121212 guisp=#121212 gui=NONE ctermfg=40 ctermbg=233 cterm=NONE
 hi SpecialKey guifg=#5faf00 guibg=NONE guisp=NONE gui=NONE ctermfg=70 ctermbg=NONE cterm=NONE
 hi Constant guifg=#5fd700 guibg=NONE guisp=NONE gui=NONE ctermfg=76 ctermbg=NONE cterm=NONE
 hi Tag guifg=#d78700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
